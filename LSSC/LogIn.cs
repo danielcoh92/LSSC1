@@ -23,7 +23,7 @@ namespace LSSC
         {
             get => default(LandingPageMain);
             set
-            {
+            {דג
             }
         }
 
