@@ -23,7 +23,8 @@ namespace LSSC
         {
             get => default(LandingPageMain);
             set
-            {דג
+            {
+                Console.WriteLine("דניאל הבלש");
             }
         }
 
