@@ -14,6 +14,7 @@ namespace LSSC
         [STAThread]
         static void Main()
         {
+            dsasdasd
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LogIn());
