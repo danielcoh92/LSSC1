@@ -6,16 +6,7 @@ using System.Threading.Tasks;
 
 namespace LSSC
 {
-    class ErrorCodes
+    class Registration
     {
-        String id;
-        String error;
-
-
-    public String errorCode(String id)
-        {
-            return id;
-        }
-
     }
 }

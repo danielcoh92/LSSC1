@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LSSC.CustomerManagement.Customer">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAQAAAAAEAABAAAAAAAAAAAggA=</HashCode>
+      <FileName>CustomerManagement\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.CustomerManagement.CustomerManagement">
+    <Position X="2" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAABECAAAAAAAADAAAAGAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CustomerManagement\CustomerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.CustomerManagement.Transactions">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAEAAAgA=</HashCode>
+      <FileName>CustomerManagement\Transactions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.ErrorCodes" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ErrorCodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.EventLog">
+    <Position X="1" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.LandingPageMain" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAIAAAAAAAAAAAAAABgAAACAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>LandingPageMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.LogIn" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="_" Type="LSSC.LandingPageMain">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-4.285" Y="1.554" Height="0.182" Width="0.5" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>LogIn.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LSSC.ManagementGUI" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagementGUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.Search">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.Properties.Settings" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.Reports.Reports">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\Reports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.Reports.Statistics" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\Statistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.Settings.Preferences">
+    <Position X="9.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAA4AAAAAAAAAAAAAAAABAAACAAAAAAA=</HashCode>
+      <FileName>Settings\Preferences.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.StockManagement.Item">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEACCAAAAAAAAAAgA=</HashCode>
+      <FileName>StockManagement\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.StockManagement.StockManagement">
+    <Position X="6.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACAAAAAgEAiAAAAyAAAAAAAAAAAAAAABAAI=</HashCode>
+      <FileName>StockManagement\StockManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.VendorManagement.Vendor">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAACAUAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>VendorManagement\Vendor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LSSC.VendorManagement.VendorManagement">
+    <Position X="9" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAACAAAACAAAAAAAAAIEQAAAAgEA=</HashCode>
+      <FileName>VendorManagement\VendorManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

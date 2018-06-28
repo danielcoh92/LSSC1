@@ -8,14 +8,6 @@ namespace LSSC
 {
     class ErrorCodes
     {
-        String id;
-        String error;
-
-
-    public String errorCode(String id)
-        {
-            return id;
-        }
 
     }
 }
